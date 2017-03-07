@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B063354D1E6EA68F003495D6 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B063354B1E6EA68F003495D6 /* algorithm.cpp */; };
 		B084B5191E6D15C200EB11DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B084B5181E6D15C200EB11DF /* main.cpp */; };
 		B084B5241E6D593800EB11DF /* general.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B084B5231E6D593800EB11DF /* general.a */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B063354B1E6EA68F003495D6 /* algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm.cpp; sourceTree = "<group>"; };
+		B063354C1E6EA68F003495D6 /* algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algorithm.h; sourceTree = "<group>"; };
 		B084B5151E6D15C200EB11DF /* Testing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Testing; sourceTree = BUILT_PRODUCTS_DIR; };
 		B084B5181E6D15C200EB11DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B084B5231E6D593800EB11DF /* general.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = general.a; path = ../Common/Library/general.a; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B063354A1E6EA645003495D6 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				B063354B1E6EA68F003495D6 /* algorithm.cpp */,
+				B063354C1E6EA68F003495D6 /* algorithm.h */,
+			);
+			name = Function;
+			sourceTree = "<group>";
+		};
 		B084B50C1E6D15C100EB11DF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		B084B5171E6D15C200EB11DF /* Testing */ = {
 			isa = PBXGroup;
 			children = (
+				B063354A1E6EA645003495D6 /* Function */,
 				B084B5181E6D15C200EB11DF /* main.cpp */,
 			);
 			path = Testing;
@@ -132,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B084B5191E6D15C200EB11DF /* main.cpp in Sources */,
+				B063354D1E6EA68F003495D6 /* algorithm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

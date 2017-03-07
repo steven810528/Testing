@@ -20,25 +20,8 @@
 using namespace std;
 
 
-template <class T>
-float fun(vector<T > v)
-{
-    int ans=0;
-    for (int i=0;i<v.size();i++)
-    {
-        ans+=v[i];
-    }
-    return (int)ans/v.size();
-}
-
-
-
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    map <int, string > maptable;
-    
-    
-    return 0;
 }
 
